@@ -26,3 +26,5 @@ app.get('/subtracao', (req,res) =>{
     const subtracao = n1 - n2
     res.status(200).send('algum numero gostosinho' + subtracao)
 })
+
+// oiee
