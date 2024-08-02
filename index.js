@@ -18,3 +18,11 @@ app.get('/soma', (req,res)=>{
 
     res.status(200).send('a' + soma)
 })
+
+app.get('/subtracao', (req,res) =>{
+    const n1 = Number(req.query.n1)
+    const n2 = Number(req.query.n2)
+
+    const subtracao = n1 - n2
+    res.status(200).send('algum numero gostosinho' + subtracao)
+})
